@@ -1,0 +1,21 @@
+@import './_reset.css';
+@import './_global.css';
+@import '../fonts/fonts.css';
+
+:root {
+  --white: #ffffff;
+  --black: #212429;
+
+  --blue: #3A82E4;
+  --light-blue-1: #4A94F8;
+
+  --dark-blue-1: #226DC9;
+  --dark-blue-2: #183664;
+
+  --grey: #C4C4C4;
+  --grey-1: #929BAC;
+  --grey-2: #ACB5BD;
+  --grey-3: #495057;
+
+  --border: #C5D9E8;
+}

@@ -1,0 +1,18 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: Manrope, sans-serif;
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.block {
+    margin: 10px 0;
+}

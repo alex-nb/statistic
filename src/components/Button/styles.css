@@ -1,0 +1,38 @@
+.btn {
+  display: inline-flex;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  user-select: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--white);
+  border: none;
+  background-color: var(--blue);
+}
+
+.btn:hover:not("type=[disabled]") {
+  background-color: var(--light-blue-1);
+  box-shadow: 0 4px 10px rgba(58, 130, 228, 0.12), 0 4px 10px rgba(0, 0, 0, 0.06), 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active:not("type=[disabled]") {
+  background-color: var(--dark-blue-1);
+  box-shadow: 0 4px 10px rgba(58, 130, 228, 0.12);
+}
+
+.btn:disabled {
+  opacity: .4;
+  cursor: default;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn__label {
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}

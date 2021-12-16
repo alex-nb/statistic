@@ -1,0 +1,40 @@
+.noData {
+  text-align: center;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  align-self: center;
+}
+
+.noData__icon {
+  width: 88px;
+  height: 82px;
+  vertical-align: middle;
+  color: var(--grey-1);
+  position: absolute;
+  left: calc(50% - 88px / 2 + 39px);
+  top: calc(50% - 82px / 2 - 70px);
+}
+
+.noData__icon svg {
+  width: inherit;
+  height: inherit;
+}
+
+.noData__title {
+  color: var(--dark-blue-1);
+  position: absolute;
+  width: 425px;
+  height: 28px;
+  left: calc(50% - 425px / 2 + 39px);
+  top: calc(50% - 28px / 2);
+}
+
+.noData__description {
+  position: absolute;
+  width: 368px;
+  height: 57px;
+  left: calc(50% - 368px / 2 + 39px);
+  top: calc(50% - 57px / 2 + 65px);
+  font-size: 16px;
+}

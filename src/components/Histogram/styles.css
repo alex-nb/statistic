@@ -1,0 +1,77 @@
+.histogram {
+  display: inline-flex;
+  border-radius: 8px;
+  min-width: 100%;
+  padding: 16px 24px 24px 64px;
+}
+
+.histogram__body {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  border-left: 1px solid var(--grey-3);
+  border-bottom: 1px solid var(--grey-3);
+  height: 250px;
+}
+
+.histogram__column {
+  cursor: pointer;
+  transition: height 1s;
+  background: var(--light-blue-1);
+  flex: 1 1 auto;
+  min-width: 2px;
+}
+
+.histogram__column:hover {
+  background: var(--dark-blue-2) !important;
+}
+
+.histogram__column:nth-child(2n) {
+  background: var(--blue);
+}
+
+.histogram__column:nth-child(3n) {
+  background: var(--dark-blue-1);
+}
+
+.histogram__divisions {
+  position: relative;
+}
+
+.histogram__division_y {
+  position: absolute;
+  left: -60px;
+  font-size: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.histogram__division_y:after {
+  content: "";
+  width: 10px;
+  height: 0;
+  position: absolute;
+  left: 50px;
+  border-bottom: 1px solid var(--grey-2);
+  text-align: right;
+}
+
+.histogram__division_x {
+  position: absolute;
+  top: 260px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.histogram__division_x:after {
+  content: "";
+  height: 10px;
+  width: 0;
+  position: absolute;
+  top: -9px;
+  border-left: 1px solid var(--grey-2);
+}

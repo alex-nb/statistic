@@ -1,0 +1,20 @@
+.main__container {
+  display: flex;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+}
+
+.main__content {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+  .main__container {
+    padding: 10px;
+  }
+}

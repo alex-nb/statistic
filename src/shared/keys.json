@@ -1,0 +1,46 @@
+[
+  {
+    "value": "impressions",
+    "label": "Impressions"
+  },
+  {
+    "value": "clicks",
+    "label": "Clicks"
+  },
+  {
+    "value": "amount",
+    "label": "Amount"
+  },
+  {
+    "value": "leads",
+    "label": "Leads"
+  },
+  {
+    "value": "lead_price",
+    "label": "Lead price"
+  },
+  {
+    "value": "revenue",
+    "label": "Revenue"
+  },
+  {
+    "value": "net_revenue",
+    "label": "Net revenue"
+  },
+  {
+    "value": "net_potential",
+    "label": "Net potential"
+  },
+  {
+    "value": "ctr",
+    "label": "CTR"
+  },
+  {
+    "value": "ecpm",
+    "label": "ECPM"
+  },
+  {
+    "value": "ecpa",
+    "label": "ECPA"
+  }
+]

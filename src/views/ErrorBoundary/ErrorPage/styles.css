@@ -1,0 +1,64 @@
+.errorBoundary {
+  padding: 20% 0 0 20%;
+  height: 100%;
+  background-image: url(assets/error-page-svg.svg);
+  background-size: 50% 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.errorBoundary__title {
+  margin-bottom: 27px;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 1.2;
+}
+
+.errorBoundary__subtitle {
+  font-size: 22px;
+  margin-bottom: 35px;
+}
+
+.errorBoundary__details {
+  max-width: 60%;
+  overflow-y: auto;
+  max-height: 200px;
+  margin-bottom: 19px;
+  padding: 5px;
+}
+
+.errorBoundary__details__message {
+  font-weight: bold;
+}
+
+.errorBoundary__button {
+  background-color: var(--white);
+  display: block;
+  font-size: 18px;
+  margin-bottom: 29px;
+  border: none;
+  cursor: pointer;
+}
+
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+@media (max-width: 1000px) {
+  .errorBoundary__title {
+    margin-bottom: 17px;
+    font-size: 22px;
+    line-height: 1;
+  }
+
+  .errorBoundary__subtitle {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  .errorBoundary__button {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
